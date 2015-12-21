@@ -6,5 +6,12 @@
   <%= @article.text %>
 </p>
 
-<%= link_to 'Edit', edit_article_path(@article) %> 
+
+<%= render @article.comments %>
+
+<h5>Add a comment:</h5>
+
+<%= render 'comments/form' %>
+
+<%= link_to 'Edit', edit_article_path(@article) %>
 <%= link_to 'Feed', articles_path %>
