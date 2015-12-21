@@ -7,8 +7,8 @@ For my final project I created a web-based blog application using the Ruby on Ra
 
 Before I explain the features and app structure you need to make sure you have Ruby *and* Rails installed. Below are some links to help you get started:
 
-Windows http://rubyinstaller.org
-OS X/Linux http://rubyonrails.org/download/
+Windows http://rubyinstaller.org<br>
+OS X/Linux http://rubyonrails.org/download/<br>
 
 Rails is a framework written in the Ruby language. It too follows the motto of 'Convention over Configuration' by not requiring app interactions to be coded one way, but you gain tremendous benefits by following community established guidelines. Rails generates nearly all the basic file structure for the entire app right away. This allows more time to focus on writing the strongest Ruby code you can in your Models, Views, and Controllers. As you might imagine Rails follows the MVC structure. To demonstrate the power of the Ruby on Rails framework as well as show off my personal knowledge of Ruby, I created a BuzzFeed-style blog app called 'HawkFeed' which is for MSU students who love their school. I will list out the many areas where I contributed code in this structure below based on category.
 
