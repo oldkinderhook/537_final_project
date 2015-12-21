@@ -16,9 +16,9 @@
 		</tr>
 		<tr>
 			<td><%= link_to 'Edit', edit_article_path(article) %></td>
-			<td><%= link_to 'Destroy', article_path(article),
+			<td><%= link_to 'Delete', article_path(article),
 										method: :delete,
-										data: {confirm: 'Are you sure?'} %></td>
+										data: {confirm: 'Are you sure? This is FOREVER!'} %></td>
 		</tr>
 	<% end %>
 </table>
